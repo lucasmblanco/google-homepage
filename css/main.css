@@ -1,0 +1,53 @@
+/* CSS Style */
+.nav-bar {
+    width: 100%;
+    float: right;
+    min-width: 165px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    text-align: right;
+    margin: 15px 0;
+}
+
+a {
+    padding: 8px;
+    display: inline;
+    color: #222;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+.material-icons-outlined {
+    vertical-align: middle;             
+}
+
+p {
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    background:linear-gradient(#4387fd,#4683ea);
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+
+p > a {
+    color: #fff;
+}
+
+p:hover {
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+
+.main-image {
+    display: block;
+    padding-top: 150px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+
+}
