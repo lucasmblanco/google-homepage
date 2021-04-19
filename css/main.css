@@ -1,6 +1,9 @@
 /* CSS Style */
 
 /* Header Styling */
+body {
+    font-family: arial, sans-serif;
+}
 .nav-bar {
     width: 100%;
     float: right;
@@ -12,7 +15,7 @@
     margin: 15px 0;
 }
 
-a {
+.anchor-link {
     padding: 8px;
     display: inline;
     color:   #535453 ;
@@ -20,14 +23,20 @@ a {
     font-family: arial, sans-serif;
     font-size: 13px;
 }
-
+a:hover {
+    text-decoration: underline;
+}
 .material-icons-outlined {
     vertical-align: middle;
 }
 
+.hover-effect:hover {
+    color: black;
+}
 p {
     color: #fff;
     display: inline-block;
+    font-size: small;
     font-weight: bold;
     background:linear-gradient(#4387fd,#4683ea);
     line-height: 28px;
@@ -38,11 +47,13 @@ p {
 
 p > a {
     color: #fff;
+    text-decoration: none!important;
 }
 
 p:hover {
-    box-shadow: 0 1px 0 rgba(0,0,0,.15);
-}
+    box-shadow: 1px 2px 3px rgba(0,0,0,.15);
+    }
+
 
 /* Logo Image Styling */
 .main-image {
@@ -52,7 +63,6 @@ p:hover {
 img {
     display: block;
     margin: 0 auto;
-
 }
 
 /* Search Bar Styling */
@@ -84,4 +94,34 @@ input {
 
 .search-bar-icons {
     color: #a7a4a4;
+}
+
+.main-search-bar > a {
+    text-decoration: none!important;
+}
+
+/* Buttons Field */
+.buttons-field {
+    text-align: center;
+}
+
+.search-buttons {
+    display: inline;
+    padding: 10px;
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid transparent;
+    color: #222;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.search-buttons:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #c6c6c6;
+    text-decoration: none;
+}
+
+.search-buttons > a {
+    text-decoration: none!important;
 }
